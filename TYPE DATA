@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // TIPE DATA PRIMITIF (DASAR)
+    
+    // 1. int - Menyimpan bilangan bulat
+    int angka = 10;  // Contoh: -100, 0, 42
+    
+    // 2. float - Menyimpan bilangan desimal (presisi tunggal)
+    float pecahan = 3.14f;  // Contoh: -2.5f, 0.0f, 99.99f
+    
+    // 3. double - Menyimpan bilangan desimal (presisi ganda)
+    double presisi_ganda = 2.71828;  // Contoh: -1.5, 0.0, 3.141592
+    
+    // 4. char - Menyimpan satu karakter
+    char huruf = 'A';  // Contoh: 'a', '1', '@'
+    
+    // 5. bool - Menyimpan nilai true/false
+    bool kondisi = true;  // Hanya bernilai true (1) atau false (0)
+
+
+    // TIPE DATA MODIFIER (VARIASI UKURAN)
+    
+    // 6. short - int versi lebih kecil
+    short kecil = 32767;  // Ukuran lebih kecil dari int
+    
+    // 7. long - int versi lebih besar
+    long besar = 2147483647;  // Ukuran lebih besar dari int
+    
+    // 8. unsigned - Hanya menyimpan nilai positif
+    unsigned int positif = 4000000000;  // Tidak bisa negatif
+
+
+    // TIPE DATA NON-PRIMITIF
+    
+    // 9. string - Menyimpan teks (kumpulan char)
+    string teks = "Hello World!";  // Butuh #include <string>
+
+
+    // Menampilkan contoh nilai
+    cout << "int: " << angka << endl;
+    cout << "float: " << pecahan << endl;
+    cout << "double: " << presisi_ganda << endl;
+    cout << "char: " << huruf << endl;
+    cout << "bool: " << kondisi << endl;
+    cout << "short: " << kecil << endl;
+    cout << "long: " << besar << endl;
+    cout << "unsigned int: " << positif << endl;
+    cout << "string: " << teks << endl;
+
+    return 0;
+}
